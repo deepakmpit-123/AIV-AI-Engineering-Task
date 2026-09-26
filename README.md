@@ -71,7 +71,12 @@ The system is designed to handle:
 - Resume parsing
 - Improved scoring accuracy
 - Web-based user interface
+### Test Results
 
-## Author
-
-Deepak
+| Test | Result |
+|---|---|
+| Prompt injection in resume | PASS |
+| Prompt injection in job description | PASS |
+| False skill claims | PASS |
+| Empty resume validation | PASS |
+Note: The match score is an AI-generated estimate based on the provided resume and job description. It is not a hiring probability or guarantee.
