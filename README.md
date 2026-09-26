@@ -64,7 +64,10 @@ The system is designed to handle:
 - Resume and job description are treated as untrusted input.
 - API keys should never be committed to GitHub.
 - AI output should be validated before use.
-
+### How to Run Web GUI:
+```bash
+pip install streamlit google-generativeai pydantic
+streamlit run app.py
 ## Future Improvements
 
 - PDF resume upload
